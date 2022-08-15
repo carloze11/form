@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
   }
   
   .container {
@@ -49,18 +50,72 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 0 25px;
+    padding: 0 200px 0 25px;
+    background-color: rgb(249, 250, 251);
+    font-weight: 600;
   }
   
   .slogan p:last-child {
     margin-bottom: 50px;
   }
   
-  .form {
-    padding: 0 25px;
+  .info {
+    padding: 0 10% 0 25px;
+  }
+  
+  form{
+    display: flex;
+    
+    flex-wrap: wrap;
+  }
+  
+  .user-input{
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 10px 60px 20px 0;
+  }
+  
+  form input{
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    width: 100%;
+    padding: 7px;
+    marign: 10px;
+    font-size: 12px;
+  }
+  
+  form input:focus {
+    outline: none;
+    box-shadow: 3px 3px 5px lightgray;
+    border: 1px solid blue;
   }
   
   .account {
-    padding: 0 25px;
+    padding: 0 10% 0 25px;
+    background-color: rgb(249, 250, 251);
+  }
+  
+  button {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #596D48;
+    color: white;
+    font-weight: 600;
+    font-size: .9rem;
+  }
+  
+  .login {
+    display: flex;
+    align-items: center;
+  }
+  
+  a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: #596D48;
+    font-weight: 600;
   }
   
